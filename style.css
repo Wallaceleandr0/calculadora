@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+}
+
+body {
+    background-image: radial-gradient(circle at 100%, red, blue );
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.394);
+}
+
+.main {
+    max-width: 400px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+form {
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.87);
+    display: grid;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 10px;
+    height: 400px;
+    background-color: indigo;
+    margin: 0 auto;
+}
+
+input {
+    transition: .4s;
+}
+
+input:hover {
+    cursor: pointer;   
+}
+
+#mult {
+    background-color: yellow;
+}
+
+#div {
+    background-color: rgb(177, 0, 151);
+}
+
+#sub {
+    background-color: orange;
+}
+
+#add {
+    background-color: greenyellow;
+}
+
+#mult:hover {
+    background-color: black;
+    color: yellow;
+}
+
+#div:hover {
+    background-color: black;
+    color: rgb(177, 0, 151);
+}
+
+#sub:hover {
+    background-color: black;
+    color: orange;
+}
+
+#add:hover {
+    background-color: black;
+    color: greenyellow;
+}
+
+.maincolor {
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: monospace;
+    background-color: rgb(92, 78, 117);
+    min-width: 60px;
+    min-height: 60px;
+    border: 2px solid black;
+}
+
+.maincolor:hover {
+    transform: scale(1.07);
+    background-color: black;
+    color: rgb(92, 78, 117);
+}
+
+.maincircle {
+    font-size: 20px;
+    font-family: monospace;
+    border: 2px solid black;
+    border-radius: 50%;
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.maincircle:hover {
+    transform: scale(1.07);
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.text-c {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: white;
+    border: none;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.text-c:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.text {
+    padding: 12px;
+    border: none;
+    background-color: rgba(107, 130, 200, 0.863);
+    color: black;
+    font-size: 25px;
+    text-align: end;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

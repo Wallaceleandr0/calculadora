@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Feito por Wallace :-)</h1>
+    <div class="main">
+        <form action="" name="Calculator">
+
+             <input type="text" class="text" name="text1" disabled>
+             <input type="text" class="text-c" name="text12" value="APAGAR..." onclick="location.reload()">    
+
+         <section>
+             <input type="button" class="maincolor" name="btn9" value="9" onclick="displaynum(btn9.value)">
+             <input type="button" class="maincolor" name="btn8" value="8" onclick="displaynum(btn8.value)">
+             <input type="button" class="maincolor" name="btn7" value="7" onclick="displaynum(btn7.value)">
+             <input type="button" class="maincircle" name="addbtn" value="+" id="add" onclick="displaynum(addbtn.value)">
+         </section>
+
+         <section>
+             <input type="button" class="maincolor" name="btn6" value="6" onclick="displaynum(btn6.value)">
+             <input type="button" class="maincolor" name="btn5" value="5" onclick="displaynum(btn5.value)">
+             <input type="button" class="maincolor" name="btn4" value="4" onclick="displaynum(btn4.value)">
+             <input type="button" class="maincircle" name="subbtn" value="-" id="sub" onclick="displaynum(subbtn.value)">
+         </section>
+
+         <section>
+             <input type="button" class="maincolor" name="btn3" value="3" onclick="displaynum(btn3.value)">
+             <input type="button" class="maincolor" name="btn2" value="2" onclick="displaynum(btn2.value)">
+             <input type="button" class="maincolor" name="btn1" value="1" onclick="displaynum(btn1.value)">
+             <input type="button" class="maincircle" name="mulbtn" value="*" id="mult" onclick="displaynum(mulbtn.value)">
+         </section>
+
+         <section>
+             <input type="button" class="maincolor" name="dot" value="." onclick="displaynum(dot.value)">
+             <input type="button" class="maincolor" name="btn0" value="0" onclick="displaynum(btn0.value)">
+             <input type="button" class="maincolor" name="eqlbtn" value="=" onclick="text1.value=eval(text1.value)">
+             <input type="button" class="maincircle" name="divbtn" value="/" id="div" onclick="displaynum(divbtn.value)">
+         </section>
+
+        </form>
+    </div>    
+</body>
+<script src="script.js"></script>
+</html>
